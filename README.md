@@ -6,11 +6,12 @@ And each department has list of students
 
 and student have either arrears or all pass
 
-and I want to fetch a student who passsed in all subject when i give a department
+and I want to fetch a single student who passsed in all subject when i give a department
 
 For ex.
 
 ECE
+
   EA - 2 arrear
   
   EB - 0 arrear
@@ -21,6 +22,7 @@ ECE
 
 
 CSE
+
   CA - 0 arrear
   
   CB - 0 arrear
@@ -44,3 +46,5 @@ Student - CA/CB
 
 
 Write a Java Program to do the above.
+
+Note : Incase there are multiple students who are passed in a class, I want to fetch a random student from the class, 
